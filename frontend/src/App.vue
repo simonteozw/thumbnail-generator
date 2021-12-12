@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="container">
     <div class="row">
-      <div class="col -md-6 offset-md-3 py-5">
+      <div class="col-md-6 offset-md-3 py-5">
         <h1>Generate thumbnails for your website</h1>
 
         <form v-on:submit.prevent="makeWebsiteThumbnail">
